@@ -35,7 +35,7 @@ let quizEnded = false;
 let quizTimerInterval = null;
 let autoAdvanceTimeout = null;
 
-const QUIZ_DURATION_SECONDS = 30 * 60; // 30 minutes for the whole quiz
+const QUIZ_DURATION_SECONDS = 20 * 60; // 20 minutes for the whole quiz
 let quizTimeRemaining = QUIZ_DURATION_SECONDS;
 
 if (typeof quizQuestions === "undefined" || !Array.isArray(quizQuestions)) {
